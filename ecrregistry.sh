@@ -15,7 +15,7 @@ ecrConnect(){
       --docker-server=$DOCKER_REGISTRY_SERVER \
       --docker-username=$DOCKER_USER \
       --docker-password=$DOCKER_PASSWORD \
-      --docker-email=wesley.emery@westrock.com
+      --docker-email=bob.dickerson@business.com
    kubectl patch serviceaccount default -p '{"imagePullSecrets":[{"name":"aws-registry"}]}'
 
 }
